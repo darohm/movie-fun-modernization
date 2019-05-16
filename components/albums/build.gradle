@@ -1,0 +1,7 @@
+apply from: "../../java.gradle"
+//clean for now
+dependencies {
+    compile "com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.7.0"
+    compile "org.springframework:spring-context:$springVersion"
+    compile "org.hibernate:hibernate-core:$hibernateVersion"
+}

@@ -1,0 +1,5 @@
+apply from: "../../java.gradle"
+dependencies {
+    compile "org.hibernate:hibernate-core:$hibernateVersion"
+}
+
